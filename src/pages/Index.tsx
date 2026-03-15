@@ -151,8 +151,9 @@ const Index = () => {
             transition={{ delay: 0.9, duration: 0.6 }}
             className="flex gap-1 mt-6"
           >
-            <div className="w-8 h-[2px] bg-accent" />
             <div className="w-8 h-[2px] bg-accent-red" />
+            <div className="w-8 h-[2px] bg-accent-gold" />
+            <div className="w-8 h-[2px] bg-primary" />
           </motion.div>
         </div>
 
