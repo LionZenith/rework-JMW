@@ -68,7 +68,7 @@ const Index = () => {
           <a href="#" className="flex items-center gap-2">
             <img src={silhouette} alt="" className="h-8 w-8 object-contain" />
             <span className="font-display text-lg font-semibold tracking-wide text-foreground">
-              Julia <span className="text-accent">Weissenhofer</span>
+              Julia <span className="text-accent-red">Weissenhofer</span>
             </span>
           </a>
 
