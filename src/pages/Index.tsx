@@ -237,9 +237,9 @@ const Index = () => {
             viewport={{ once: true, margin: "-100px" }}
             className="text-center mb-16">
             
-            <motion.p variants={fadeUp} custom={0} className="font-body text-xs tracking-[0.3em] uppercase text-accent-red">
-              Karriere-Highlights
-            </motion.p>
+            
+
+            
             <motion.h2 variants={fadeUp} custom={1} className="font-display text-4xl lg:text-5xl font-light mt-3 text-accent-gold">
               Erfolge
             </motion.h2>
@@ -256,7 +256,7 @@ const Index = () => {
               custom={i}
               className="grid grid-cols-[60px_1fr] md:grid-cols-[80px_1fr_1fr] gap-4 md:gap-8 py-6 border-b border-primary-foreground/10 items-baseline">
               
-                <span className="font-display text-2xl font-light text-accent-red">{a.year}</span>
+                <span className="font-display text-2xl font-light text-destructive">{a.year}</span>
                 <span className="font-display text-lg md:text-xl text-primary-foreground">{a.title}</span>
                 <span className="font-body text-sm text-primary-foreground/50 hidden md:block">{a.detail}</span>
               </motion.div>
@@ -314,7 +314,7 @@ const Index = () => {
       </section>
 
       {/* Fanclub */}
-      <section id="fanclub" className="py-24 lg:py-32 bg-secondary">
+      <section id="fanclub" className="py-24 lg:py-32 bg-primary">
         <div className="max-w-3xl mx-auto px-6 lg:px-12 text-center">
           <motion.div
             initial="hidden"
@@ -324,10 +324,10 @@ const Index = () => {
             <motion.p variants={fadeUp} custom={0} className="font-body text-xs tracking-[0.3em] uppercase text-accent-red">
               Werde Teil des Teams
             </motion.p>
-            <motion.h2 variants={fadeUp} custom={1} className="font-display text-4xl lg:text-5xl font-light text-foreground mt-3">
+            <motion.h2 variants={fadeUp} custom={1} className="font-display text-4xl lg:text-5xl font-light mt-3 text-accent-gold">
               Fanclub
             </motion.h2>
-            <motion.p variants={fadeUp} custom={2} className="font-body text-base text-muted-foreground mt-6 leading-relaxed max-w-lg mx-auto">
+            <motion.p variants={fadeUp} custom={2} className="font-body text-base mt-6 leading-relaxed max-w-lg mx-auto text-destructive-foreground">
               Sei Teil von Julias Reise! Tritt dem Fanclub bei und erhalte exklusive Updates,
               Einblicke hinter die Kulissen und frühzeitigen Zugang zu Wettkampfplänen.
             </motion.p>
