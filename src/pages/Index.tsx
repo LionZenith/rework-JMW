@@ -105,7 +105,7 @@ const Index = () => {
                   key={item.href}
                   href={`#${item.href}`}
                   onClick={() => setMenuOpen(false)}
-                  className="font-body text-sm tracking-widest uppercase text-muted-foreground hover:text-accent transition-colors"
+                  className="font-body text-sm tracking-widest uppercase text-muted-foreground hover:text-primary transition-colors"
                 >
                   {item.label}
                 </a>
