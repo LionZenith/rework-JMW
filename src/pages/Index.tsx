@@ -405,7 +405,7 @@ const Index = () => {
             © 2025 Julia Weissenhofer
           </span>
           <div className="flex items-center gap-6">
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors">
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent-red transition-colors">
               <Instagram size={16} />
             </a>
             <a href="mailto:kunstturnen@julia-weissenhofer.li" className="text-muted-foreground hover:text-accent-red transition-colors">
