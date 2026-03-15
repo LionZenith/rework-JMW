@@ -391,7 +391,7 @@ const Index = () => {
           </p>
           <a
             href="mailto:kunstturnen@julia-weissenhofer.li"
-            className="inline-block mt-6 text-sm font-body tracking-wider text-accent hover:underline underline-offset-4 transition-colors"
+            className="inline-block mt-6 text-sm font-body tracking-wider text-primary hover:text-accent-red hover:underline underline-offset-4 transition-colors"
           >
             kunstturnen@julia-weissenhofer.li
           </a>
