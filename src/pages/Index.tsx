@@ -256,7 +256,7 @@ const Index = () => {
                 custom={i}
                 className="grid grid-cols-[60px_1fr] md:grid-cols-[80px_1fr_1fr] gap-4 md:gap-8 py-6 border-b border-primary-foreground/10 items-baseline"
               >
-                <span className="font-display text-2xl font-light text-accent">{a.year}</span>
+                <span className="font-display text-2xl font-light text-accent-red">{a.year}</span>
                 <span className="font-display text-lg md:text-xl text-primary-foreground">{a.title}</span>
                 <span className="font-body text-sm text-primary-foreground/50 hidden md:block">{a.detail}</span>
               </motion.div>
