@@ -235,7 +235,7 @@ const Index = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: "-100px" }}
-            className="text-center mb-16">
+            className="text-center mb-16 text-accent-gold">
             
             
 
