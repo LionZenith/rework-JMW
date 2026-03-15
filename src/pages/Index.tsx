@@ -240,7 +240,7 @@ const Index = () => {
             <motion.p variants={fadeUp} custom={0} className="font-body text-xs tracking-[0.3em] uppercase text-accent-red">
               Karriere-Highlights
             </motion.p>
-            <motion.h2 variants={fadeUp} custom={1} className="font-display text-4xl lg:text-5xl font-light text-primary-foreground mt-3">
+            <motion.h2 variants={fadeUp} custom={1} className="font-display text-4xl lg:text-5xl font-light mt-3 text-accent-gold">
               Erfolge
             </motion.h2>
           </motion.div>
