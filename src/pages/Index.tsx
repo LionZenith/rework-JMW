@@ -371,7 +371,7 @@ const Index = () => {
                 key={p}
                 variants={fadeUp}
                 custom={i}
-                className="font-body text-sm tracking-wider text-muted-foreground/60 hover:text-accent transition-colors cursor-default"
+                className="font-body text-sm tracking-wider text-muted-foreground/60 hover:text-primary transition-colors cursor-default"
               >
                 {p}
               </motion.span>
