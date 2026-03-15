@@ -352,7 +352,7 @@ const Index = () => {
             viewport={{ once: true, margin: "-100px" }}
             className="text-center mb-12"
           >
-            <motion.p variants={fadeUp} custom={0} className="font-body text-xs tracking-[0.3em] uppercase text-accent">
+            <motion.p variants={fadeUp} custom={0} className="font-body text-xs tracking-[0.3em] uppercase text-primary">
               Unterstützt von
             </motion.p>
             <motion.h2 variants={fadeUp} custom={1} className="font-display text-3xl font-light text-foreground mt-3">
