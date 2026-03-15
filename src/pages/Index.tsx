@@ -77,7 +77,7 @@ const Index = () => {
               <a
                 key={item.href}
                 href={`#${item.href}`}
-                className="font-body text-sm tracking-widest uppercase text-muted-foreground hover:text-accent transition-colors duration-300"
+                className="font-body text-sm tracking-widest uppercase text-muted-foreground hover:text-primary transition-colors duration-300"
               >
                 {item.label}
               </a>
