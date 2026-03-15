@@ -303,7 +303,7 @@ const Index = () => {
                   </div>
                 </div>
                 <p className="font-body text-xs text-muted-foreground tracking-wider uppercase">{post.date}</p>
-                <h3 className="font-display text-xl mt-1 text-foreground group-hover:text-accent transition-colors">
+                <h3 className="font-display text-xl mt-1 text-foreground group-hover:text-accent-red transition-colors">
                   {post.title}
                 </h3>
                 <p className="font-body text-sm text-muted-foreground mt-2 leading-relaxed">{post.excerpt}</p>
