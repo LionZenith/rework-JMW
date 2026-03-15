@@ -383,7 +383,7 @@ const Index = () => {
       {/* Sponsoring */}
       <section id="sponsoring" className="py-16 lg:py-20 bg-muted/50">
         <div className="max-w-3xl mx-auto px-6 lg:px-12 text-center">
-          <p className="font-body text-xs tracking-[0.3em] uppercase text-accent">Unterstützung</p>
+          <p className="font-body text-xs tracking-[0.3em] uppercase text-primary">Unterstützung</p>
           <h2 className="font-display text-3xl font-light text-foreground mt-3">Sponsoring</h2>
           <p className="font-body text-sm text-muted-foreground mt-4 leading-relaxed max-w-lg mx-auto">
             Interesse, Julias sportliche Karriere zu unterstützen? Melde dich, um
